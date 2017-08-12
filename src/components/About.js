@@ -2,11 +2,17 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 const StyledDiv = styled.div`
-  background-color: #FFFAFA;
+  background-color: white;
   height: 100vh;
+  font-size: 20px;
   display: flex;
   justify-content: space-around;
   border-bottom: 2px solid #303030;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 
   p {
     line-height: 180%;
@@ -22,11 +28,8 @@ export default class About extends Component {
     return(
       <StyledDiv id='about'>
         <TextDiv>
-          <p>A lot of very nice things said about Adam Holtzman</p>
-          <p>
-          Spicy jalapeno bacon ipsum dolor amet cupim ground round picanha doner, swine porchetta kevin short loin tri-tip rump pork belly kielbasa. Flank short ribs andouille shankle doner t-bone capicola fatback boudin kielbasa. Boudin capicola strip steak pastrami pork loin, ribeye pork meatloaf jerky. Pork chop beef ribs tail leberkas, corned beef chuck ham hock cupim turkey.
-          </p><p>
-Sausage t-bone rump meatball pancetta ham biltong turkey short ribs drumstick pork pastrami. Fatback flank pastrami, turkey corned beef brisket boudin ribeye shank frankfurter. Filet mignon t-bone tail chicken, meatloaf cupim prosciutto beef pork belly tenderloin sausage. Frankfurter beef ribs fatback, tri-tip beef hamburger cupim spare ribs filet mignon corned beef ribeye strip steak kielbasa meatloaf. Ribeye biltong bacon prosciutto landjaeger filet mignon, drumstick cow spare ribs pork chop flank.</p>
+          <p>Adam Holtzman has been designing and building his own websites as well as for friends since 2002. In late 2016 he decided to focus on making this a profession and began learning to write the code rather than use visual programs (Adobe's GoLive & later Muse) to develop sites. He has focused recently on developing with React, has been utilizing CSS in JS with Styled-Components and innovative designs with CSS Grid.</p>
+          <p>Adam is a former chef, an art dealer, exhibiting artist (photography and painting) and has been active in producing photography and art books; designing, editing and occasionally publishing many since 2007. His artwork can be seen at <a href='http://www.adamholtzman.com' >adamholtzman.com</a></p>
         </TextDiv>
       </StyledDiv>
     );
