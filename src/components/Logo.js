@@ -8,13 +8,13 @@ export default styled.div`
   img {
     width: 150px;
     height: 150px;
-    border-radius: 5px;
+    border-radius: 2px;
     margin-right: 40px;
-    border: 1px solid white;
+    border: 1px solid dimgrey;
   }
 
   h2 {
     color: white;
-    text-shadow: 1px 1px 5px lightgrey;
+    text-shadow: 1px 1px 5px dimgrey;
   }
 `

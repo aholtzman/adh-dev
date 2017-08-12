@@ -22,7 +22,7 @@ const data = [
   title: "David Gremp",
   image: require('../images/gremp.png'),
   desc: "Website for the fine art photographer David Gremp",
-  code: "React, React-Router & Styled-Components",
+  code: "React, React-Router, CSS Grid & Styled-Components",
   role: "Design & Development",
   url: 'https://damp-fortress-55891.herokuapp.com'
 },
@@ -40,7 +40,7 @@ const data = [
   title: "Adam Holtzman",
   image: require('../images/adh.png'),
   desc: "Latest iteration of my personal website featuring my artwork, since 2002",
-  code: "React, React-Router & Styled-Components",
+  code: "React, React-Router, CSS Grid & Styled-Components",
   role: "Design & Development",
   url: 'http://www.adamholtzman.com'
 },

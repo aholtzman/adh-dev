@@ -7,8 +7,7 @@ const StyledPortfolio = styled.div`
   justify-content: space-around;
   align-items: stretch;
   flex-wrap: wrap;
-  background-color: #FFDAB9;
-  background: url(${require('../images/pattern.png')}) repeat;
+  background-color: #5b73ab;
   border-bottom: 2px solid #303030;
 `
 

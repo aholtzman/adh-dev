@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export default styled.div`
   margin: 20px;
   padding: 10px;
-  border: 2px solid #C0C0C0;
+  border: 2px solid dimgrey;
   display: flex;
   justify-content: center;
   align-items: center;
