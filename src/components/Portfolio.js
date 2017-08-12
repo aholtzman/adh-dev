@@ -8,8 +8,7 @@ const StyledPortfolio = styled.div`
   align-items: stretch;
   flex-wrap: wrap;
   background-color: #FFDAB9;
-  /* background-image: url('http://data.whicdn.com/images/138719043/large.png');
-  background-repeat: repeat;*/
+  background: url(${require('../images/pattern.png')}) repeat;
   border-bottom: 2px solid #303030;
 `
 

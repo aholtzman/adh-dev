@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <AppDiv>
-      <Background src='http://adamholtzman.com/images/2.jpg'>
+      <Background>
         <Logo>
           <img src={require('./images/adhSelf2.png')} alt='portrait'/>
           <h2>Adam Holtzman</h2>

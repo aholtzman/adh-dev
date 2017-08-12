@@ -13,7 +13,7 @@ const data = [
   title: "Alibi Fine Art",
   image: require('../images/alibi.png'),
   desc: "Legacy website for a now closed Art Gallery",
-  code: "HTML5 & CSS3",
+  code: "React, React-Router & Styled-Components",
   role: "Design & Development",
   url: 'http://www.alibifineart.com'
 },
@@ -24,7 +24,7 @@ const data = [
   desc: "Website for the fine art photographer David Gremp",
   code: "React, React-Router & Styled-Components",
   role: "Design & Development",
-  url: 'http://www.comonloon.com'
+  url: 'https://damp-fortress-55891.herokuapp.com'
 },
 {
   id: 4,
@@ -33,7 +33,7 @@ const data = [
   desc: "This website",
   code: "React & Styled-Components",
   role: "Design & Development",
-  url: 'http://www.adamholtzman.com'
+  url: 'http://www.adamdavidholtzman.com'
 },
 {
   id: 5,

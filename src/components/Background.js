@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export default styled.div`
-  background: url('http://adamholtzman.com/images/2.jpg');
+  background: url(${require('../images/bg1.png')});
   background-size: cover;
   height: 100vh;
   width: 100%;
