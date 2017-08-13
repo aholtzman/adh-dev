@@ -17,4 +17,8 @@ export default styled.div`
     color: white;
     text-shadow: 1px 1px 5px dimgrey;
   }
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `

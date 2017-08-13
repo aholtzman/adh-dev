@@ -10,4 +10,8 @@ export default styled.div`
   flex-direction: column;
   max-width: 350px;
   background-color: white;
+
+  @media (max-width: 700px) {
+    width: 290px;
+  }
 `

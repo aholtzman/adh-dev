@@ -5,4 +5,8 @@ export default styled.div`
   padding-bottom: 20px;
   text-align: center;
   width: 350px;
+
+  @media (max-width: 700px) {
+    width: 290px;
+  }
 `

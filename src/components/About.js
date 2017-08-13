@@ -8,6 +8,7 @@ const StyledDiv = styled.div`
   display: flex;
   justify-content: space-around;
   border-bottom: 2px solid #303030;
+  overflow: scroll;
 
   a {
     text-decoration: none;
