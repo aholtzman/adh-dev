@@ -4,9 +4,9 @@ const data = [
   title: "Common Loon",
   image: require('../images/cl.png'),
   desc: "Website for the band Common Loon",
-  code: "HTML5, CSS3, JS & jQuery",
+  code: "React, React-Router, CSS Grid & Styled-Components",
   role: "Design, Development & created the music video for 'The Coup'",
-  url: 'http://www.comonloon.com'
+  url: 'https://commonloon-heroku.herokuapp.com/'
 },
 {
   id: 2,
