@@ -24,7 +24,7 @@ const data = [
   desc: "Website for the fine art photographer David Gremp",
   code: "React, React-Router, CSS Grid & Styled-Components",
   role: "Design & Development",
-  url: 'https://damp-fortress-55891.herokuapp.com'
+  url: 'http://davidgrempphotos.com/'
 },
 {
   id: 4,
