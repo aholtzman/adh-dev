@@ -7,7 +7,7 @@ const StyledPortfolio = styled.div`
   justify-content: space-around;
   align-items: stretch;
   flex-wrap: wrap;
-  background-color: #5b73ab;
+  background-color: #55658c;
   border-bottom: 2px solid #303030;
 `
 

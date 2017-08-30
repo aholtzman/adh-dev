@@ -3,10 +3,10 @@ import Navbar from './components/Navbar'
 import AppDiv from './components/AppDiv'
 import Background from './components/Background'
 import Portfolio from './components/Portfolio'
-import Logo from './components/Logo'
 import data from './images/data'
 import About from './components/About'
 import Connect from './components/Connect'
+import GreyLogo from './components/GreyLogo'
 
 
 class App extends Component {
@@ -14,10 +14,7 @@ class App extends Component {
     return (
       <AppDiv>
       <Background>
-        <Logo>
-          <img src={require('./images/adhSelf2.png')} alt='portrait'/>
-          <h2>Adam Holtzman</h2>
-        </Logo>
+        <GreyLogo />
         <Navbar />
       </Background>
       <About />

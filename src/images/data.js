@@ -3,7 +3,7 @@ const data = [
   id: 1,
   title: "Common Loon",
   image: require('../images/cl.png'),
-  desc: "Website for the band Common Loon",
+  desc: "Website for the band Common Loon (work in progress)",
   code: "React, React-Router, CSS Grid & Styled-Components",
   role: "Design, Development & created the music video for 'The Coup'",
   url: 'https://commonloon-heroku.herokuapp.com/'

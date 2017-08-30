@@ -5,9 +5,15 @@ import 'zenscroll'
 
 const NavArea = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: baseline;
-  margin-left: 20px;
+
+  @media (max-width: 850px) {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 5px;
+  }
 `
 
 const Navbar = () => {
