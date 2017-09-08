@@ -29,8 +29,8 @@ export default class About extends Component {
     return(
       <StyledDiv id='about'>
         <TextDiv>
-          <p>Adam Holtzman has been designing and building his own websites as well as for friends since 2002. In late 2016 he decided to focus on making this a profession and began learning to write the code rather than use visual programs (Adobe's GoLive & later Muse) to develop sites. He has focused recently on developing with React, has been utilizing CSS in JS with Styled-Components and innovative designs with CSS Grid.</p>
-          <p>Adam is a former chef, an art dealer, exhibiting artist (photography and painting) and has been active in producing photography and art books; designing, editing and occasionally publishing many since 2007. His artwork can be seen at <a href='http://www.adamholtzman.com' >adamholtzman.com</a></p>
+          <p>Since 2002, Adam Holtzman occasionally designed and built websites for both himself and colleagues. Recently, his focus shifted to a more professional and deeper level of web development by learning front end languages, techniques and implementations. His current projects include developing sites with React, has been utilizing CSS in JS with Styled-Components and new design layouts with CSS Grid.</p>
+          <p>Adam is a former chef, an art dealer and exhibiting artist (photography and painting). He has been known to produce photography and art books; designing, editing and intermittently publishing several since 2007. His artwork can be seen at <a href='http://www.adamholtzman.com' >adamholtzman.com</a></p>
         </TextDiv>
       </StyledDiv>
     );
