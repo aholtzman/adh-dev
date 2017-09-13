@@ -12,7 +12,7 @@ const StyledDiv = styled.div`
 
   a {
     text-decoration: none;
-    color: black;
+    color: #d9d9d9;
   }
 
   p {
@@ -23,6 +23,17 @@ const StyledDiv = styled.div`
 const TextDiv = styled.div`
   width: 70%;
   margin: auto 0;
+  padding: 20px;
+  padding-left: 40px;
+  background-color: #3f4040;
+  border: 1px solid lightgrey;
+  color: white;
+  letter-spacing: 2px;
+
+  @media (max-width: 800px) {
+    width: 100%;
+    border: none;
+  }
 `
 export default class About extends Component {
   render() {

@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 const StyledDiv = styled.div`
-  height: 40vh;
+  height: 20vh;
   background-color: #F8F8F8;
+  background-image: url(${require('../images/bgPattern.png')});
   color: black;
   font-size: 20px;
   display: flex;
@@ -15,6 +16,7 @@ const StyledDiv = styled.div`
     height: 150px;
     padding: 10px;
     margin-top: 15px;
+    filter: drop-shadow(1px 1px 1px #222);
 
     &:hover {
       transform: scale(1.1);
