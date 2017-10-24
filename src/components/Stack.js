@@ -15,6 +15,7 @@ const Area = styled.div`
 const Image = styled.img`
   height: 50px;
   width: 50px;
+  padding-bottom: 5px;
 `
 
 const Stack = () => {
