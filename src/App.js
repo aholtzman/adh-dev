@@ -7,6 +7,7 @@ import data from './images/data'
 import About from './components/About'
 import Connect from './components/Connect'
 import GreyLogo from './components/GreyLogo'
+import Stack from './components/Stack'
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
       </Background>
       <About />
       <Portfolio data={data} />
+      <Stack />
       <Connect id='code'/>
       </AppDiv>
     );
