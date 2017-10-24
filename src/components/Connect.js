@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 
 const StyledDiv = styled.div`
-  height: 20vh;
+  height: 225px;
   background-color: #F8F8F8;
   background-image: url(${require('../images/bgPattern.png')});
   color: black;
@@ -29,7 +29,7 @@ const StyledDiv = styled.div`
       height: 80px;
       padding: 5px;
     }
-    height: 20vh;
+    height: 150px;
   }
 `
 
@@ -37,15 +37,18 @@ export default class Code extends Component {
   render() {
     return(
       <StyledDiv id='code'>
-      <a href='https://www.instagram.com/adam.holtzman/' target='_blank' rel="noopener noreferrer">
-        <img src={require('../images/instaIcon.png')} alt='instagram icon'/>
-      </a>
-      <a href='https://github.com/aholtzman' target='_blank' rel="noopener noreferrer">
-        <img src={require('../images/github.png')} alt='github icon' />
-      </a>
-      <a href='mailto:adhdeveloper@gmail.com'>
-        <img src={require('../images/email.png')}  alt='mail icon'/>
-      </a>
+        <a href='https://www.instagram.com/adam.holtzman/' target='_blank' rel="noopener noreferrer">
+          <img src={require('../images/instaIcon.png')} alt='instagram icon'/>
+        </a>
+        <a href='https://github.com/aholtzman' target='_blank' rel="noopener noreferrer">
+          <img src={require('../images/github.png')} alt='github icon' />
+        </a>
+        <a href='mailto:adhdeveloper@gmail.com'>
+          <img src={require('../images/email.png')}  alt='mail icon'/>
+        </a>
+        <a href='https://www.linkedin.com/in/adam-holtzman-8b27b245/' target='_blank' rel="noopener noreferrer">
+          <img src={require('../images/linkedin.png')}  alt='linkedin logo'/>
+        </a>
       </StyledDiv>
     );
   }
