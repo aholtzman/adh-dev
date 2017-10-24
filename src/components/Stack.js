@@ -10,12 +10,17 @@ const Area = styled.div`
   align-items: center;
   flex-wrap: wrap;
   border-bottom: 2px solid #303030;
+
+  @media (max-width: 800px) {
+    height: 120px;
+  }
 `
 
 const Image = styled.img`
   height: 50px;
   width: 50px;
   padding-bottom: 5px;
+  padding-right: 10px;
 `
 
 const Stack = () => {
