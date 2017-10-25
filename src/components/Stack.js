@@ -28,11 +28,13 @@ const Stack = () => {
     <Area>
       <Image src={require('../images/react.png')}/>
       <Image src={require('../images/redux.png')}/>
+      <Image src={require('../images/apollo-logo.png')}/>
       <Image src={require('../images/electron.png')}/>
       <Image src={require('../images/es6-logo.png')}/>
       <Image src={require('../images/gatsby.png')}/>
       <Image src={require('../images/GraphQL_Logo.png')}/>
       <Image src={require('../images/webpack.png')}/>
+      <Image src={require('../images/yarn.png')}/>
     </Area>
   );
 }
