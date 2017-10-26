@@ -49,7 +49,7 @@ const data = [
   title: "Eastport, Maine Weather",
   image: require('../images/eastport.png'),
   desc: "A simple Web App that shows the current weather in the eastern most US city.",
-  code: "React & Styled-Components",
+  code: "React, Styled-Components & Open Weather API",
   role: "Design & Development",
   url: 'http://eastportweather.surge.sh/'
 },

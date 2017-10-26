@@ -22,6 +22,7 @@ const StyledDiv = styled.div`
 
 const TextDiv = styled.div`
   width: 70%;
+  max-width: 800px;
   margin: auto 0;
   padding: 20px;
   padding-left: 40px;
